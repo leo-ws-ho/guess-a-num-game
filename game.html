@@ -6,5 +6,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
   </head>
-  <body></body>
+  <body>
+    <script>
+      function generateSecret() {
+        // a secret between 1 and 100.
+        return Math.floor(Math.random() * 100) + 1;
+      }
+
+      let secret = generateSecret();
+
+      console.log(secret);
+    </script>
+  </body>
 </html>

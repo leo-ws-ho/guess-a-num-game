@@ -15,3 +15,7 @@ git commit -m "message"
 
 git log
   -- to see the log
+
+git checkout <a file>
+  -- to get <a file> back from the repository (the most updated version saved)
+

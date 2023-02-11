@@ -1,0 +1,17 @@
+git init
+  -- initialise a git repository
+
+git status
+  -- check the current status of the git repository
+
+git add game.html
+  -- to add a file (game.html) to stage  (or to "stage" a file)
+
+git add .
+  -- to add everything in current directory to stage
+
+git commit -m "message"
+  -- save the staged work to repository, and log with the "message"
+
+git log
+  -- to see the log

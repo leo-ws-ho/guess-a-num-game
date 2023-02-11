@@ -24,3 +24,6 @@ git branch
 
 git branch <branch-name>
   -- create a branch with "branch-name"
+
+git merge <another branch>
+  -- merge the content of another branch into the current one.

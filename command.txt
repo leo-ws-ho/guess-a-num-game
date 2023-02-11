@@ -24,3 +24,9 @@ git branch
 
 git branch <branch-name>
   -- create a branch with "branch-name"
+
+git merge <another branch>
+  -- merge "another branch" into the current branch.
+
+git merge <another branch>
+  - if there are conflicts, then we must do something!

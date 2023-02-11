@@ -16,6 +16,33 @@
       let secret = generateSecret();
 
       console.log(secret);
+      let low = 1;
+      let high = 100;
+
+      while (true) {
+        let input = parseInt(
+          prompt(`Input your guess between ${low} and ${high}.`)
+        );
+        if (isNaN(input)) {
+          alert("Please enter a number.");
+          continue;
+        }
+        if (input < low || input > high) {
+          // outside the hint range
+          alert("Please stay within the range.");
+          continue;
+        }
+        if (input > secret) {
+          high = input - 1;
+        } else if (input < secret) {
+          low = input + 1;
+        } else {
+          // input === secret
+          // you win!
+          alert("You Win!");
+          break;
+        }
+      }
     </script>
   </body>
 </html>

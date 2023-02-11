@@ -19,3 +19,8 @@ git log
 git checkout <a file>
   -- to get <a file> back from the repository (the most updated version saved)
 
+git branch
+  -- list out all active branches
+
+git branch <branch-name>
+  -- create a branch with "branch-name"

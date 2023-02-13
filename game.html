@@ -32,6 +32,12 @@
         }
       }
 
+      function printWinningMsg() {
+        console.log("You win!");
+        alert("You Win!");
+        return;
+      }
+
       let secret = generateSecret();
 
       console.log(secret);
@@ -47,7 +53,7 @@
         } else {
           // input === secret
           // you win!
-          alert("You Win!");
+          printWinningMsg();
           break;
         }
       }
